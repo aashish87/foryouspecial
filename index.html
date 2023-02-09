@@ -1,156 +1,104 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beautiful proposal website">
+  <meta name="keywords" content="proposal, love, engagement">
+  <meta name="author" content="Aashish">
+  <title>Happy Proposal Day!</title>
 
+  <!-- Add custom styles -->
   <style>
-
-    /* Add your custom styles here */
+    /* Basic styles */
+    * {
+      box-sizing: border-box;
+    }
 
     body {
-
-      background-color: pink;
-
+      background-color: #ffc0cb;
       text-align: center;
-
       font-family: Arial, sans-serif;
-
     }
 
     .container {
-
       display: flex;
-
       flex-direction: column;
-
       align-items: center;
-
       margin-top: 100px;
-
     }
 
+    /* Heading styles */
     h1 {
-
       font-size: 72px;
-
-      color: white;
-
+      color: #fff;
       margin-bottom: 50px;
-
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     }
 
+    /* Paragraph styles */
     p {
-
       font-size: 24px;
-
-      color: white;
-
+      color: #fff;
       margin-bottom: 50px;
-
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     }
 
+    /* Button styles */
     .button {
-
-      background-color: white;
-
-      color: black;
-
+      background-color: #fff;
+      color: #ffc0cb;
       border: none;
-
       border-radius: 25px;
-
       padding: 20px 40px;
-
       font-size: 24px;
-
       cursor: pointer;
-
-      box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease-in-out;
     }
 
     .button:hover {
-
-      background-color: pink;
-
-      color: white;
-
+      background-color: #ffc0cb;
+      color: #fff;
     }
 
-    /* Responsive design */
-
+    /* Responsive styles */
     @media (max-width: 700px) {
-
       h1 {
-
         font-size: 48px;
-
       }
 
       p {
-
         font-size: 18px;
-
       }
 
       .button {
-
         padding: 10px 20px;
-
         font-size: 18px;
-
       }
-
     }
-
   </style>
-
 </head>
-
 <body>
-
+  <!-- Main content container -->
   <div class="container">
+    <!-- Heading -->
+    <h1>Happy Proposal Day, Bipana Bebs!</h1>
 
-    <h1>Happy Proposal Day,Bipana Bebs!</h1>
-
+    <!-- Paragraph -->
     <p>I can't imagine spending the rest of my life without you. Will you be mine forever?</p>
 
-    <img src="image.jpg" alt="Love">
+    <!-- Image -->
+    <img src="image.jpg" alt="A beautiful picture of love">
 
+    <!-- Button -->
     <button class="button">Yes!</button>
-
   </div>
 
-  <!-- Additional surprise -->
-
+  <!-- Surprise audio -->
   <div style="display: none;">
+    <audio id="surprise-sound" src="surprise.mp
 
-    <audio id="surprise-sound" src="surprise.mp3"></audio>
-
-    <script>
-
-      document.querySelector(".button").addEventListener("click", function() {
-
-        var sound = document.getElementById("surprise-sound");
-
-        sound.currentTime = 0;
-
-        sound.play();
-
-      });
-
-    </script>
-
-  </div>
-
-</body>
-
-</html>
     
       
 
